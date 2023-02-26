@@ -23,7 +23,7 @@ namespace Discord_Bot
             _client = new DiscordSocketClient(config);
             _client.Log += Log;
 
-            string token = "MTAyNjIzMDk3MjMyMjE2MDczMQ.GpE8KT.jtFOtHy2Bl-KDVKCqIjVEhTKmhdlRaGnCt1tys"; //Your token here!
+            string token = ""; //Your token here!
 
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
